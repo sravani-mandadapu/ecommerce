@@ -45,7 +45,6 @@ public class ProductCategoryController {
 	@PostMapping
 	public ResponseEntity<Object> updateProductCategory(@RequestBody ProductCategory productCategory) {
 		return ResponseEntity.ok(productCategoryService.updateProductCategory(productCategory));
-		
 	}
 
 }
